@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18.x, 20.x, 22.x # Or another version compatible with your project
+          node-version: 18 # Or another version compatible with your project
 
       # Step 3: Install dependencies
       - name: Install dependencies
